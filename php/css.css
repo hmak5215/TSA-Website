@@ -1,0 +1,81 @@
+				body
+				{
+					font-family:Arial, Helvetica, sans-serif;
+				}
+				table 
+				{
+					width: 75%;
+					border: 1px solid black;
+					border-collapse: collapse;
+				}
+				
+				th, td
+				{
+					border: 1px solid white;
+    				text-align: left;
+    				padding: 8px;
+				}
+				.signup, .comp{
+					width:50%;
+					}
+				.fund{
+					width:33%;
+					}
+				
+				.new
+				{
+					display:none;
+				}
+				.new2
+				{
+					display:none;
+				}
+				.sub
+				{
+					display:inline-block;
+  					float:right;
+  				}
+				tr
+				{
+					background-color: #F3F3F3;
+				}
+				tr:nth-child(even) 
+				{
+  					  background-color: #dddddd;
+				}
+				.trlink:hover, .newbutton2:hover, .newbutton:hover
+				{
+					cursor:pointer;
+					background-color:#ddddff;
+				}		
+				
+				
+				
+				
+				/* Select Dropdown */		
+				.select-style 
+				{
+					display:inline-block;
+    				border: 1px solid #ccc;
+   					width: 50%;
+    				border-radius: 3px;
+    				overflow: hidden;
+    				background-color:white;
+				}
+
+				.select-style select 
+				{
+    				padding: 5px 8px;
+    				width: 130%;
+    				border: none;
+    				box-shadow: none;
+    				background: transparent;
+    				background-image: none;
+    				-webkit-appearance: none;
+    				display:block;
+				}
+
+				.select-style select:focus 
+				{
+    				outline: none;
+				}	

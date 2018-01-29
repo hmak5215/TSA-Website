@@ -16,7 +16,7 @@ body {
 	background-color: white;
 	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	padding: 0;
 	z-index: 1000;
 }
@@ -203,84 +203,31 @@ table {
 
 
 
-.header {
-	background-color:#DDDDDD;
-	height:13%;
-	width:100%;
-	/*overflow:hidden;*/
-}
-
-.head {
-	width:12%;
-	float:right;
-}
-
-.head:hover {
-    		background-color: #c0c2db;
-}
-
-.img {
-	float:left;
-	margin-left:1%;
-}
-
-.logo {
-	max-height:11%;
-	position:absolute;
-	margin-left:2%;
-}
-
-/*.nav {
-	line-height:100%;
-}*/
-
-.left {
-	background-color:#DDDDDD;
-	float:left;
-	width:100%;
-	height:76%;
-	margin-top:8%;
-	border:1px solid black;
-	padding:5%;
-	padding-top:0px;
-}
-
-.headerLogo {
-	margin-top: .5%;
-	float: left;
-	height:81%;
-	vertical-align: middle;
-}
-
-.linkHead {
-	margin-right: 5%;
-	line-height:100%;
-	float: right;
-	height:50%;
-	margin-top:2%;
-}
-
-* {
-	box-sizing: border-box;
-}
-
 .mySlides {
 	display: none;
+	
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
+	opacity: .7;
+}
+
+.mySlides:hover {
+	opacity: 1;
 }
 
 img {
 	vertical-align: middle;
 }
 
-/* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+	width: 40%;
+	position: relative;
+	
+	float: left;
 }
 
-
-/* The dots/bullets/indicators */
 .dot {
   height: 15px;
   width: 15px;

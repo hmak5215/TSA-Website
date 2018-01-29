@@ -1,3 +1,208 @@
+html {
+	font-size: 16px;	
+}
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.625rem;
+	margin: 0;
+	line-height: 1.3;
+}
+
+/**********/
+/* HEADER */
+/**********/
+#header {
+	display: block;
+	background-color: white;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	width: 100%;
+	position: fixed;
+	padding: 0;
+	z-index: 1000;
+}
+#header_image {
+	width: 15.5rem;
+	float: left;
+}
+#navigation {
+	float: right;
+	display: inline-block;
+	padding: 0;
+	margin-right: .5rem;
+}
+#navigation ul {
+	list-style-type: none;
+}
+#navigation ul li {
+	float: left;
+	display: list-item;
+	margin: 0;
+}
+#navigation ul li a {
+	display: block;
+	padding: 1.75rem 1.5rem .5rem 1.5rem;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-align: center;
+	
+	-webkit-transition: border-color .25s ease-in-out, color .25s ease-in-out;
+	-moz-transition: border-color .25s ease-in-out, color .25s ease-in-out;
+	-o-transition: border-color .25s ease-in-out, color .25s ease-in-out;
+	transition: border-color .25s ease-in-out, color .25s ease-in-out;
+	border-bottom: .2rem solid transparent;
+	color: #555;
+}
+#navigation ul li a:hover {
+	border-bottom-color: #1A8CFF;
+	color: black;
+}
+
+/******************/
+/* SMALL NAV MENU */
+/******************/
+#small_menu {
+	display: none;
+	cursor: pointer;
+	float: right;
+	margin: 2.75rem 2rem 0 0;
+}
+.bar1, .bar2, .bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	-moz-transform: rotate(-45deg) translate(-9px, 6px);
+	-o-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .bar2 {
+	opacity: 0;
+}
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-9px, -6px);
+	-moz-transform: rotate(45deg) translate(-9px, -6px);
+	-o-transform: rotate(45deg) translate(-9px, -6px);
+	transform: rotate(45deg) translate(-9px, -6px);
+}
+
+/************************/
+/* SMALL NAVBAR CONTENT */
+/************************/
+.sidenav {
+	height: 100%;
+	width: 0;
+	position:fixed;
+	z-index: 1001;
+	top: 0;
+	right: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 15px;
+	transition: 0.5s;
+}
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	display: none;
+	
+	-webkit-transition: border-color .25s ease-in-out, color .3s ease-in-out;
+	-moz-transition: border-color .25s ease-in-out, color .3s ease-in-out;
+	-o-transition: border-color .25s ease-in-out, color .3s ease-in-out;
+	transition: border-color .25s ease-in-out, color .3s ease-in-out;
+	border-bottom: .2rem solid transparent;
+	color: #818181;
+}
+.sidenav a:hover {
+	border-bottom-color: #1A8CFF;
+	color: #f1f1f1;
+}
+
+/***************/
+/* MOBILE MENU */
+/***************/
+#mobile_icon {
+	display: none;
+	cursor: pointer;
+	float: right;
+	margin: 2.75rem 2rem 0 0;
+}
+#mobile_menu_content {
+	list-style: none;
+	background-color: #111;
+	padding: 10px;
+	right: 0;
+	display: none;
+}
+#mobile_menu_content li {
+	display: none;
+	padding: 10px;
+	width: 100%;
+}
+#mobile_menu_content li a {
+	text-decoration: none;
+	font-size: 16px;
+	display: none;
+	
+	-webkit-transition: border-color .25s ease-in-out, color .3s ease-in-out;
+	-moz-transition: border-color .25s ease-in-out, color .3s ease-in-out;
+	-o-transition: border-color .25s ease-in-out, color .3s ease-in-out;
+	transition: border-color .25s ease-in-out, color .3s ease-in-out;
+	border-bottom: .2rem solid transparent;
+	color: #818181;
+}
+#mobile_menu ul li a:hover {
+	border-bottom-color: #1A8CFF;
+	color: #f1f1f1;
+}
+
+/***************/
+/* SUBHEADINGS */
+/***************/
+.content_heading {
+	text-align: center;
+}
+
+/*****************/
+/* CONTENT AREAS */
+/*****************/
+#main_content {
+	padding-top: 8rem;
+}
+p {
+	font-size: 1.25em;
+	text-align: center;
+	margin: 0 10% 0 10%;
+}
+
+p a {
+	text-decoration: none;
+}
+
+.textwrapper {
+	padding: 5% 0;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .header {
 	background-color:#DDDDDD;
 	height:13%;

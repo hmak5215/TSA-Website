@@ -282,9 +282,10 @@ img {
 
 .slideshow-container {
 	width: 40%;
-	position: relative;
-	
+	position: absolute;
+	top: 22%;
 	float: left;
+	left: 8%;
 }
 
 .dot {

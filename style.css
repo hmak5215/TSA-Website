@@ -192,6 +192,65 @@ table {
 	border-spacing: 2px;
 }
 
+@media (min-width: 800px) {
+	body {
+		font-size: 0.875rem;
+	}
+}
+@media (min-width: 1200px) {
+	body {
+		font-size: 1rem;
+	}
+}
+@media (max-width: 930px) {
+	#small_menu {
+		display: inline-block;
+	}
+	
+	.sidenav a {
+		display: block;	
+	}
+	
+	#navigation {
+		display: none;
+	}
+	
+	#content_wrapper {
+		transition: margin-right .5s;
+	}
+	
+	#header {
+		transition: width .5s;
+	}
+}
+@media (max-width: 565px) {
+	#navigation {
+		display: none;
+	}
+	
+	#small_menu {
+		display: none;
+	}
+	
+	#mobile_icon {
+		display: inline-block;
+	}
+	
+	#mobile_menu_content {
+		position: absolute;
+		top: 5rem;
+		right: 10px;
+		width: 35%;
+	}
+	
+	#mobile_menu_content li {
+		display: inline-block;
+	}
+	
+	#mobile_menu_content li a {
+		display: block;
+	}
+}
 
 
 

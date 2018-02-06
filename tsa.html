@@ -8,68 +8,55 @@
 		<script type="text/javascript" src="mobileMenu.js"></script>
 	</head>
 	<body>
+		<div id="header">
+			<a href="home.html">
+				<img src="tsalnhs.png" alt="TSA Logo" id="header_image" />
+			</a>
+			
+			<div id="navigation">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Organizations</a></li>
+					<li><a href="">TSA</a></li>
+					<li><a href="">PLTW</a></li>
+					<li><a href="">Register</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<img src="Images/TSANational3.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+  				<img src="Images/TSANational2.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+  				<img src="Images/TSANational1.jpg" style="width:100%">
+			</div>
+			
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+			
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+		</div>
+		
 		<div id="content_wrapper">
-			<div id="header">
-				<a href="home.html"><img src="tsalnhs.png" alt="TSA Logo" id="header_image" onmouseover="hover(this)" onmouseout="unhover(this)" /></a>
-			
-				<div id="mobile_menu">
-					<div id="mobile_icon" onClick="mobileMenuClicked(this)">
-						<div class="bar1"></div>
-						<div class="bar2"></div>
-						<div class="bar3"></div>
-					</div>
-					<ul id="mobile_menu_content">
-						<li><a href="javascript:HomeScroll()">Home</a></li>
-						<li><a href="javascript:OrganizationsScroll()">Organizations</a></li>
-						<li><a href="javascript:TSAScroll()">TSA</a></li>
-						<li><a href="javascript:PLTWScroll()">PLTW</a></li>
-						<li><a href="javascript:RegistrationScroll()">Register</a></li>
-					</ul>
-				</div>
-			
-				<div id="small_menu" onClick="menuClicked(this)">
-					<div class="bar1"></div>
-					<div class="bar2"></div>
-					<div class="bar3"></div>
-				</div>
-				
-				<div id="SideNav" class="sidenav">
-					<a href="javascript:HomeScroll()">Home</a>
-					<a href="javascript:OrganizationsScroll()">Organizations</a>
-					<a href="javascript:TSAScroll()">TSA</a>
-					<a href="javascript:PLTWScroll()">PLTW</a>
-					<a href="javascript:RegistrationScroll()">Register</a>
-				</div>
-			
-				<div id="navigation">
-					<ul>
-						<li><a href="javascript:HomeScroll()">Home</a></li>
-						<li><a href="javascript:OrganizationsScroll()">Organizations</a></li>
-						<li><a href="javascript:TSAScroll()">TSA</a></li>
-						<li><a href="javascript:PLTWScroll()">PLTW</a></li>
-						<li><a href="javascript:RegistrationScroll()">Register</a></li>
-					</ul>
-				</div>
-			</div>
-			
-			<div class="slideshow-container">
-				<div class="mySlides fade">
-  					<img src="TSANational1.jpg" style="width:100%">
-				</div>
-				<div class="mySlides fade">
-  					<img src="TSANational2.jpg" style="width:100%">
-				</div>
-				<div class="mySlides fade">
-				  <img src="TSANational3.jpg" style="width:100%">
-				</div>
-			
-				<br>
-				<div style="text-align:center">
-					<span class="dot"></span> 
-					<span class="dot"></span> 
-					<span class="dot"></span> 
-				</div>
-			</div>
+			<p>Hello World</p>
+			<p>Hello World</p>
+			<p>Hello World</p>
+			<p>Hello World</p>
+		</div>
+		
+		<div id="footer">
+			<p>Hello World</p>
+			<p>Hello World</p>
+			<p>Hello World</p>
 		</div>
 		<script type="text/javascript" src="slideshow.js"></script>
 	</body>

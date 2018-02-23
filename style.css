@@ -61,7 +61,7 @@ body {
 	width: 40%;
 	background-color: lightgray;
 	border-radius: 5px 5px 5px 5px;
-	display: block;
+	display: none;
 	padding: 1%;
 	font-size: 3rem;
 	border-bottom: solid;
@@ -78,6 +78,19 @@ body {
 	width: 100%;
 	top: 100%;
 	position: absolute;
+}
+
+#body_motto {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	padding-top: 1%;
+	background-color: lightgray;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #FF0004;
+	text-align: center;
+	font-size: 2rem;
+	display: none;
 }
 
 #footer {
@@ -196,4 +209,17 @@ img {
 
 .active {
 	background-color: #717171;
+}
+
+
+@media (min-width: 1200px) {
+	#motto {
+		display: block;
+	}
+}
+
+@media (max-width: 1199px) {
+	#body_motto {
+		display: block;
+	}
 }
